@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Your Preferred Font', sans-serif;
+    background-color: white;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    z-index: 1000; 
+    transition: background-color 0.3s ease;
+}
+
+.TrainerApp {
+    text-align: left;
+    font-size: 20px;
+    color: #fff; 
+}
+
+.button {
+    text-transform: none;
+    overflow: visible;
+    color: orange;
+}
+
+.main-content,
+.onlineTraining {
+    background-color: rgb(240, 238, 238);
+    padding: 140px;
+    margin-top: 70px; 
+    border-radius: 8px;
+}
+
+.New {
+    font-size: 32px;
+    color: black;
+}
+
+.NewPara,
+.onlinePara {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: black;
+}
+
+h1,
+h2 {
+    color: black;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+}
+
+.getStarted {
+    color: orange;
+    background-color: black;
+    padding: 15px 20px;
+    border-radius: 3px;
+}
+
+.email {
+    padding: 15px 20px;
+    border-radius: 3px;
+}
+
+
