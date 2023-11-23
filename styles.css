@@ -21,6 +21,11 @@ header {
     transition: background-color 0.3s ease;
 }
 
+.navbar-icon {
+    border: none;
+    color: rgb(255, 255, 255); 
+}
+
 .TrainerApp {
     text-align: left;
     font-size: 20px;
@@ -33,11 +38,42 @@ header {
     color: orange;
 }
 
-.main-content,
-.onlineTraining {
-    background-color: rgb(240, 238, 238);
+.main-content {
+    width: 50%;
+    color: black;
     padding: 140px;
     margin-top: 70px; 
+    border-radius: 8px;
+    background-color: rgb(240, 238, 238);
+
+}
+
+.newSection {
+    color: black;
+    padding: 50px;
+    margin-top: 70px; 
+    border-radius: 8px
+}
+
+.engagement,
+.business {
+    width: 50%;
+    color: black;
+    padding: 140px;
+    margin-top: 70px; 
+    border-radius: 8px;
+}
+.onlineTraining {
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    top: 983px;
+    bottom: 0px;
+    right: 1px;
+    background-color: rgb(240, 238, 238);
+    border-radius: 14px;
+    color: black;
+    padding: 140px;
     border-radius: 8px;
 }
 
@@ -47,7 +83,9 @@ header {
 }
 
 .NewPara,
-.onlinePara {
+.onlinePara,
+.clientEngagement,
+.getAndKeep {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
@@ -56,11 +94,6 @@ header {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    color: black;
-}
-
-h1,
-h2 {
     color: black;
 }
 
@@ -74,6 +107,7 @@ h2 {
     background-color: black;
     padding: 15px 20px;
     border-radius: 3px;
+    font-weight: bold;
 }
 
 .email {
@@ -81,4 +115,79 @@ h2 {
     border-radius: 3px;
 }
 
+.TrainerApp:hover,
+.getStarted:hover,
+.navbar-toggler:hover {
+    cursor: pointer;
+}
 
+
+.container2 {
+    color: black;
+}
+
+.boxes {
+    width: 25%;
+    height: 180px;
+    border: 2px dashed red;
+    margin: 8px 10px;
+    display: inline-block;
+}
+
+.img-class {
+    max-width: 50%;
+    height: 55px;
+    position: absolute;
+    top: 120px;
+    right: 230px; 
+}
+
+.img-class img {
+    max-width: 100%;
+    height: auto;
+}
+.img-class3 {
+    max-width: 25%;
+    height: 50px;
+    position: absolute;
+    top: 120px;
+    right: 160px; 
+    z-index: -1;
+}
+
+.img-class3 img {
+    max-width: 100%;
+    height: auto;
+}
+.container1 {
+    position: relative;
+    width: 100%;
+    border: 1px solid;
+
+}
+
+.img-class2 img {
+    position: absolute;
+    top: 46.5%;
+    right: 10px;
+    height: auto;
+    transform: translateY(-50%); 
+    z-index: -1;
+    width: 50%; 
+    height: 580px;
+    border-radius: 8px;
+
+}
+
+.phonewatch {
+    position: relative;
+    margin-top: 75px; 
+}
+
+.phonewatch img {
+    width: 30%; 
+    height: 400px;
+    border-radius: 12px;
+    z-index: -1;
+    margin-left: 90px;
+}
