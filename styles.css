@@ -60,6 +60,7 @@ header {
     padding: 140px;
     border-radius: 8px;
 }
+
 .video-class video {
     position: absolute;
     max-width: 70%; 
@@ -72,17 +73,28 @@ header {
     border-radius: 8px;
 }
 
-.phonewatch {
+.container2 {
     position: relative;
     margin-top: 75px; 
 }
 
+.stats img {
+    width: 15%; 
+    height: 15%;
+    border-radius: 12px;
+    margin-left: 25%;
+    margin-top: -5%;
+    opacity: 0.7;
+
+}
 .phonewatch img {
     width: 25%; 
     height: 250px;
     border-radius: 12px;
     margin-left: 12%;
     margin-top: 5%;
+    z-index: -1;
+
 }
 
 .newSection {
