@@ -50,16 +50,16 @@ header {
 .onlineTraining {
     position: absolute;
     width: 50%;
-    height: 400px;
+    height: 420px;
     top: 983px;
     bottom: 0px;
     right: 1px;
-    background-color: rgb(240, 238, 238);
     border-radius: 14px;
     color: black;
     padding: 140px;
     border-radius: 8px;
 }
+
 
 .sunsetrun img {
     position: absolute;
@@ -112,23 +112,26 @@ header {
     margin-top: 75px; 
 }
 
-.stats img {
+.stats img,
+.revenue img {
     width: 15%; 
     height: 15%;
     border-radius: 12px;
     margin-left: 25%;
     margin-top: -5%;
-    opacity: 0.7;
-
 }
-.phonewatch img {
+.stats img {
+    opacity: 0.7;
+}
+
+.phonewatch img,
+.trainFromHome img {
     width: 25%; 
     height: 250px;
     border-radius: 12px;
     margin-left: 12%;
     margin-top: 5%;
     z-index: -1;
-
 }
 
 .newSection {
@@ -138,8 +141,7 @@ header {
     border-radius: 8px
 }
 
-.engagement,
-.business {
+.engagement {
     width: 50%;
     color: black;
     padding: 140px;
@@ -177,7 +179,6 @@ header {
     color: orange;
     background-color: black;
     padding: 15px 20px;
-    border-radius: 3px;
     font-weight: bold;
 }
 
@@ -225,3 +226,58 @@ header {
 
 }
 
+.coaches,
+.pricing,
+.about,
+.signIn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin: 10px;
+}
+
+.started {
+    color: black;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.container4 img {
+    height: 65px;
+    padding: 35px 25px 0;
+    margin: 0 5px;
+    overflow: clip;
+}
+.container4 {
+    right: 50px;
+}
+
+.outdoorPT img {
+    width: 20%; 
+    height: 400px;
+    border-radius: 12px;
+    margin-left: 60%;
+    margin-top: -50%;
+    z-index: -1;
+}
+
+.clientApp img {
+    width: 15%; 
+    height: 15%;
+    border-radius: 12px;
+    margin-left: 70%;
+    margin-top: -25%;
+
+}
+
+.business {
+
+    width: 50%;
+    height: 420px;
+    border-radius: 14px;
+    color: black;
+    padding: 140px;
+    border-radius: 8px;
+}
