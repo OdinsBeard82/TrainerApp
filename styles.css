@@ -45,7 +45,44 @@ header {
     margin-top: 70px; 
     border-radius: 8px;
     background-color: rgb(240, 238, 238);
+}
 
+.onlineTraining {
+    position: absolute;
+    width: 50%;
+    height: 400px;
+    top: 983px;
+    bottom: 0px;
+    right: 1px;
+    background-color: rgb(240, 238, 238);
+    border-radius: 14px;
+    color: black;
+    padding: 140px;
+    border-radius: 8px;
+}
+.video-class video {
+    position: absolute;
+    max-width: 70%; 
+    max-height: 90%; 
+    width: 90vw;
+    margin-top: 0px;
+    margin-right: 6%;
+    left: 50%;
+    bottom: 130px;
+    border-radius: 8px;
+}
+
+.phonewatch {
+    position: relative;
+    margin-top: 75px; 
+}
+
+.phonewatch img {
+    width: 25%; 
+    height: 250px;
+    border-radius: 12px;
+    margin-left: 12%;
+    margin-top: 5%;
 }
 
 .newSection {
@@ -63,19 +100,7 @@ header {
     margin-top: 70px; 
     border-radius: 8px;
 }
-.onlineTraining {
-    width: 50%;
-    height: 400px;
-    position: absolute;
-    top: 983px;
-    bottom: 0px;
-    right: 1px;
-    background-color: rgb(240, 238, 238);
-    border-radius: 14px;
-    color: black;
-    padding: 140px;
-    border-radius: 8px;
-}
+
 
 .New {
     font-size: 32px;
@@ -134,18 +159,6 @@ header {
     display: inline-block;
 }
 
-.video-class video {
-    position: relative;
-    max-width: 70%; 
-    max-height: 110%; 
-    width: 100%; 
-    height: auto; 
-    margin-top: 0px;
-    margin-right: 6%;
-    left: 50%;
-    bottom: 570px;
-    border-radius: 8px;
-}
 .container1 {
     position: relative;
     width: 100%;
@@ -166,15 +179,3 @@ header {
 
 }
 
-.phonewatch {
-    position: relative;
-    margin-top: 75px; 
-}
-
-.phonewatch img {
-    width: 40%; 
-    height: 400px;
-    border-radius: 12px;
-    z-index: -1;
-    margin: 10px;
-}
