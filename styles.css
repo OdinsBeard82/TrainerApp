@@ -337,3 +337,40 @@ header {
     margin: 20px 0 10px;
 }
     
+.createAccount {
+    background-color: orange;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+#Form-Container {
+    max-width: 400px; 
+    padding: 20px; 
+    border-radius: 26px;
+  }
+
+  input {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 8px;
+  }
+  
+  .main-content2 {
+    width: 50%;
+    color: black;
+    padding: 140px;
+    margin: 70px auto; 
+    border-radius: 8px;
+    background-color: rgb(240, 238, 238);
+    text-align: center;
+
+  }
+  
+  .new,
+  .NewPara {
+    text-align: center;
+  }
