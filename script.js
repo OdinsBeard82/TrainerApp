@@ -1,3 +1,5 @@
-    let imageElement = document.createElement('img');
-    imageElement.src = './images/pexels-life-of-pix-7974.jpg';
-    document.getElementsById('imageContainer').appendChild(imageElement);
+document.getElementById("getStartedButton").onclick = newPage;
+
+function newPage() {
+    window.location.href = './module/getStarted.html';
+}
