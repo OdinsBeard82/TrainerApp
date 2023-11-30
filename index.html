@@ -9,14 +9,21 @@
 </head>
 <body>
     <header>
-        <h1 class="TrainerApp">TRAINERAPP</h1>
+        <h1 class="TrainerApp" id="trainerApp">TRAINERAPP</h1>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar">
             <span class="navbar-toggler-icon"></span>
             <span class="navbar-toggler-icon"></span>
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="container3">
-        <button class="coaches">Coaches</button>
+        <div class="dropdown">
+            <button class="dropdown-button">Coaching</button>
+            <div class="dropdown-options">
+              <a href="#">One-to-One</a>
+              <a href="#">Nutrition</a>
+              <a href="#">Online</a>
+            </div>
+          </div>
         <button class="pricing">Pricing</button>
         <button class="about">About</button>
         <button class="signIn">Sign in</button>
@@ -31,7 +38,7 @@
             and more, it's a complete solution designed to motivate and inspire like never before.</p>
             <div class="form-container">
                 <input type="email" class="email" name="email">
-                <button class="getStarted" id="getStartedButton">Get Started</button>
+                <button class="getStarted" id="getStartedButton2">Get Started</button>
             </div>
     </div>
     <div class="container">
@@ -105,37 +112,35 @@
                     <div class="businessGrowth">
                         <img src="./images/businessGrowth.png">
                     </div>
-                </div>
+                </div>  
                 <div class="container8">
-                    <div class="workout">
-                        <img src="./images/workout.png">
-                    </div>
-                    <div class="transfer">
-                        <img src="./images/transfer.png">
-                    </div>
-                    <div class="brand">
-                        <img src="./images/brand-image.png">
-                    </div>
-                </div>   
-                <div class="container9">
                     <div class="versitile">
+                        <div class="workout">
+                            <img src="./images/workout.png">
                         <h3 class="section6">Diverse Client Options</h3>
                         <p> Offer versatile training options, whether online, in-person, or a hybrid approach, 
                         ensuring a seamless and connected fitness experience for all your clients. Foster 
                         a thriving community for your members, granting them access to the premier coaching 
                         app that keeps them consistently connected to you.</p>
                     </div>
+                    </div>
                     <div class="experience">
+                        <div class="transfer">
+                        <img src="./images/transfer.png">
                         <h3 class="section6">Streamline Payments & Program Delivery</h3>
                         <p>Experience the convenience of our meticulously crafted, fully-integrated payment 
                         features tailored exclusively for fitness businesses. Seamlessly manage your 
                         packages, sessions, and digital memberships with unparalleled ease.</p>
                     </div>
+                    </div>
                     <div class="showcase">
-                    <h3 class="section6">Showcase Your Brand</h3>
+                        <div class="brand">
+                        <img src="./images/brand-image.png">
+                        <h3 class="section6">Showcase Your Brand</h3>
                         <p>Reveal the distinctiveness that sets you apart and personalize the app to align 
                         with your brand identity. Integrate your unique touch with custom videos and 
                         on-demand classes, effortlessly delivered through your very own branded app.</p>
+                    </div>
                     </div>
                 </div>   
                 <script src="script.js"></script>  
