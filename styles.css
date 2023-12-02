@@ -10,5 +10,8 @@
 @import "./styling/engagement.css";
 @import "./styling//getStarted//getStartedStyles.css";
 @import "./styling/getStarted/getStartedStyles.css";
+
+
 @import "./styling/signIn/main.css";
-@import "./styling/signIn/trainingStyles.css";
+@import "./styling/signIn/One-to-One.css";
+@import "./styling/signIn/whyJoin.css";

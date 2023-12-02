@@ -1,0 +1,35 @@
+.whyJoin {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 180px;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+    border: 1px solid #333;
+    border-radius: 14px;
+    color: black;
+    padding: 30px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.why {
+    margin: 1px;
+    margin-top: 40%;
+}
+
+.text1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+    margin: 0; 
+}
