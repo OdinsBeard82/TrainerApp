@@ -33,3 +33,35 @@
     color: black;
     margin: 0; 
 }
+
+.outdoorPT2 img {
+    width: 110%; 
+    height: 900%;
+    border-radius: 12px;
+    margin-left: 150%;
+    margin-top: -90%;
+}
+
+.outdoorPT2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.orange {
+    background-color: orange;
+    width: 100%; 
+    height: 550px;
+
+}
+
+.changeButton {
+    background-color: black;
+    color: orange;}
+
+
+
+.clientEngagement {
+    width: 100%; 
+    height: 150px;
+}
