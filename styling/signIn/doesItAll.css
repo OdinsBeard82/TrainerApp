@@ -14,42 +14,40 @@
     margin-left: 8%;
     border-radius: 12px;
     z-index: 2;
-    margin-top: 15%;
-    width: 15%;
+    margin-top: 5%;
+    width: 10%;
 }
 
 .dunker {
     margin-left: 8%;
     border-radius: 12px;
     z-index: -2;
-    margin-top: 15%;
-    width: 25%;
+    margin-top: 22%;
+    width: 10%;
 }
 
 .yoga {
-    width: 12.5%;
+    width: 11%;
     height: 250px;
     border-radius: 12px;
     z-index: 3;
-    margin-left: 34%;
-    margin-top: 15%;
+    margin-left: 35%;
+    margin-top: 20%;
 }
 
 .watchTrack {
-    width: 12.5%;
-    height: 250px;
-    margin-top: 3%;
-    margin-left: 10%;
+    width: 15%;
+    margin-top: 10%;
+    margin-left: 19%;
     z-index: 0;
     border-radius: 12px;
 }
 
 .swish {
-    width: 12.5%;
-    height: 250px;
+    width: 11%;
     z-index: 1;
     border-radius: 12px;
-    margin-left: 23%;
+    margin-left: 35%;
     margin-top: 3%;
 }
 
@@ -84,8 +82,9 @@
     margin-bottom: 10px;
     height: 40%;
     width: 70%;
+    margin: 20px;
 }
 
 .coachingStyles2 {
-margin: 20px;
+    margin-top: 20px;
 }
