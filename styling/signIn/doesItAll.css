@@ -1,5 +1,6 @@
 .trainingStyles2 {
     position: relative;
+    color: black;
 }
 
 .headstand,
@@ -71,7 +72,6 @@
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    color: black;
 }
 
 .started3 {

@@ -1,0 +1,131 @@
+.monthlyYearly {
+    background-color: black;
+    color: white;
+    margin-top: 46%; 
+    text-align: center;
+    height: 1000px;
+}
+
+.costs {
+    margin-bottom: 45%;
+}
+
+.pricesContainer {
+    background-color: white;
+    width: 80%;
+    height: 555px;
+    border-radius: 15px;
+    margin-left: 10%;
+    padding-top: 2%;
+
+}
+
+.priceChoices {
+    background-color: rgb(216, 216, 216);
+    width: 30%;
+    height: 500px;
+    border-radius: 12px;
+    margin-left: 3%;
+    border-top: 25px solid orange;
+}
+
+.clients5,
+.unlimited {
+    margin-left: 20%;
+    color: black;
+}
+
+.started4 {
+    background-color: orange;
+    width: 70%; 
+    margin-top: 0%;
+    border-radius: 5px;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn2 {
+    border-color: black;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown-content2 li {
+    padding: 8px;
+  }
+  
+  .dropdown2:hover .dropdown-content2 {
+    display: block;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: orange;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 45px;
+    width: 45px;
+    left: 4px;
+    bottom: 3px;
+    background-color: black;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(46px);
+  }
+  
+  .slider.round {
+    border-radius: 40px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
