@@ -17,6 +17,7 @@
     border-radius: 15px;
     margin-left: 10%;
     padding-top: 2%;
+    border-bottom: 25px solid orange;
 
 }
 
@@ -27,18 +28,19 @@
     border-radius: 12px;
     margin-left: 3%;
     border-top: 25px solid orange;
+    margin-top: -39.25%;
 }
 
-.clients5,
-.unlimited {
-    margin-left: 20%;
+.headerList {
+    margin-left: 40%;
     color: black;
+    width: 25%;
 }
 
 .started4 {
     background-color: orange;
     width: 70%; 
-    margin-top: 0%;
+    margin-top: 22%;
     border-radius: 5px;
 }
 
@@ -47,51 +49,56 @@
     display: inline-block;
   }
   
-  .dropbtn2 {
+.dropbtn2 {
     border-color: black;
     color: black;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
+    border: 1px solid black; 
+    margin-top: 25%;
   }
   
-  .dropdown-content2 {
+.dropdown-content2 {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
+    color: black;
   }
   
-  .dropdown-content2 ul {
+.dropdown-content2 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    border: 1px solid black; 
   }
   
-  .dropdown-content2 li {
+.dropdown-content2 li {
     padding: 8px;
+    color: black;
   }
   
-  .dropdown2:hover .dropdown-content2 {
+.dropdown2:hover .dropdown-content2 {
     display: block;
   }
 
-  .switch {
+.switch {
     position: relative;
     display: inline-block;
     width: 100px;
     height: 50px;
   }
   
-  .switch input {
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
   }
   
-  .slider {
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -103,7 +110,7 @@
     transition: .4s;
   }
   
-  .slider:before {
+.slider:before {
     position: absolute;
     content: "";
     height: 45px;
@@ -116,16 +123,86 @@
   }
 
 
-  input:checked + .slider:before {
+input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(46px);
   }
   
-  .slider.round {
+.slider.round {
     border-radius: 40px;
   }
   
-  .slider.round:before {
+.slider.round:before {
     border-radius: 50%;
   }
+
+.pro {
+    margin-top: 5%;
+}
+
+.pro5 {
+    color: black;
+    font-size: 24px;
+
+  }
+.optimal {
+    color: black;
+    font-size: 12px;
+
+  }
+
+.getThemInline {
+    display: flex;
+    align-items: baseline;
+    margin-left: 22.5%;
+}
+
+.inline {
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+}
+
+.inline:nth-child(1) {
+    font-size: 20px;
+}
+
+.inline:nth-child(2) {
+    font-size: 45px;
+}
+
+.inline:nth-child(3) {
+    font-size: 20px; 
+}
+
+.clients5,
+.unlimited,
+.included {
+    font-weight: bold;
+    text-align: left;
+    font-size: 30px;
+}
+
+.included {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 15%;
+
+}
+
+.includedList {
+text-align: left;
+display: flex;
+flex-wrap: wrap;
+}
+
+.includedList2 {
+    text-align: left;
+    margin-left: 65%;
+    margin-top: -17%;
+    color: black;
+}
+
+
