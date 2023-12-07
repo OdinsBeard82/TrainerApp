@@ -39,68 +39,87 @@ function navigateToPage(buttonId) {
     }
 }
 
-  function changeText0() {
-        var headingElement = document.getElementById("heading");
-        var paragraphElement = document.getElementById("paragraph");
-        var outdoorPT2Element = document.getElementById("outdoorPT2");
-        var imageElement = outdoorPT2Element.getElementsByTagName("img")[0];
+function changeText0() {
+    var headingElement = document.getElementById("heading");
+    var paragraphElement = document.getElementById("paragraph");
+    var outdoorPT2Element = document.getElementById("outdoorPT2");
+    var imageElement = outdoorPT2Element.getElementsByTagName("img")[0];
 
-        headingElement.textContent = "Elevate your training to new heights";
-        paragraphElement.textContent = "Expand the training possibilities for your clients, both within and beyond the gym. Provide your personalized fitness and nutrition programs through your exclusive PT coaching app, enabling real-time progress tracking. Foster continuous engagement with clients directly within the app to sustain motivation and ensure long-term commitment to training with you.";
-        imageElement.src = "../images/coaching.jpg";
+    headingElement.textContent = "Elevate your training to new heights";
+    paragraphElement.textContent = "Expand the training possibilities for your clients, both within and beyond the gym. Provide your personalized fitness and nutrition programs through your exclusive PT coaching app, enabling real-time progress tracking. Foster continuous engagement with clients directly within the app to sustain motivation and ensure long-term commitment to training with you.";
+    imageElement.src = "../images/coaching.jpg";
 
-    }
+}
 
-    function changeText1() {
-        var headingElement = document.getElementById("heading");
-        var paragraphElement = document.getElementById("paragraph");
-        var outdoorPT2Element = document.getElementById("outdoorPT2");
-        var imageElement = outdoorPT2Element.getElementsByTagName("img")[0];
+function changeText1() {
+    var headingElement = document.getElementById("heading");
+    var paragraphElement = document.getElementById("paragraph");
+    var outdoorPT2Element = document.getElementById("outdoorPT2");
+    var imageElement = outdoorPT2Element.getElementsByTagName("img")[0];
     
-        headingElement.textContent = "Establishing a Distinctive Brand";
-        paragraphElement.textContent = "A tailor-made, branded application that distinctly represents you and your brand stands as the optimal means to captivate clients and provide unparalleled, personalized experiences.";
-        imageElement.src = "../images/brand.jpg";
-    }
+    headingElement.textContent = "Establishing a Distinctive Brand";
+    paragraphElement.textContent = "A tailor-made, branded application that distinctly represents you and your brand stands as the optimal means to captivate clients and provide unparalleled, personalized experiences.";
+    imageElement.src = "../images/brand.jpg";
+}
 
-    function changeText2() {
-        var headingElement = document.getElementById("heading");
-        var paragraphElement = document.getElementById("paragraph");
-        var outdoorPT2Element = document.getElementById("outdoorPT2");
-        var imageElement = outdoorPT2Element.getElementsByTagName("img")[0];
+function changeText2() {
+    var headingElement = document.getElementById("heading");
+    var paragraphElement = document.getElementById("paragraph");
+    var outdoorPT2Element = document.getElementById("outdoorPT2");
+    var imageElement = outdoorPT2Element.getElementsByTagName("img")[0];
     
-        headingElement.textContent = "Fitness and nutrition combined";
-        paragraphElement.textContent ="Experience the convenience of seamlessly managing both workouts and nutrition. Benefit from robust features including personalized meal planning, efficient meal tracking, and effective habit coaching—loved by both you and your clients.";
-        imageElement.src = "../images/trackFood.jpg";
+    headingElement.textContent = "Fitness and nutrition combined";
+    paragraphElement.textContent ="Experience the convenience of seamlessly managing both workouts and nutrition. Benefit from robust features including personalized meal planning, efficient meal tracking, and effective habit coaching—loved by both you and your clients.";
+    imageElement.src = "../images/trackFood.jpg";
 
-    }
+}
 
-    function changeText3() {
-        var headingElement = document.getElementById("heading");
-        var paragraphElement = document.getElementById("paragraph");
-        var outdoorPT2Element = document.getElementById("outdoorPT2");
-        var imageElement = outdoorPT2Element.getElementsByTagName("img")[0];
+function changeText3() {
+    var headingElement = document.getElementById("heading");
+    var paragraphElement = document.getElementById("paragraph");
+    var outdoorPT2Element = document.getElementById("outdoorPT2");
+    var imageElement = outdoorPT2Element.getElementsByTagName("img")[0];
     
-        headingElement.textContent = "Maximize Revenue Potential";
-        paragraphElement.textContent = "Create and oversee diversified revenue streams by leveraging online training, phased and on-demand programs, membership bundles, and other innovative offerings.";
-        imageElement.src = "../images/profit.jpg";
+    headingElement.textContent = "Maximize Revenue Potential";
+    paragraphElement.textContent = "Create and oversee diversified revenue streams by leveraging online training, phased and on-demand programs, membership bundles, and other innovative offerings.";
+    imageElement.src = "../images/profit.jpg";
 
-    }
+}
 
 
-
+function changeSlider() {
+    var yearlyElement = document.getElementById("yearlyPricing");
+    var monthlyElement = document.getElementById("monthlyPricing");
+    var checkbox = document.querySelector('.switch input');
+    var perMonthElement = document.getElementById("monthlyAmount");
     
-    function changeSlider() {
-        var yearlyElement = document.getElementById("yearlyPricing");
-        var monthlyElement = document.getElementById("monthlyPricing");
-        var checkbox = document.querySelector('.switch input');
-        var perMonthElement = document.getElementById("monthlyAmount");
+    yearlyElement.style.fontWeight = checkbox.checked ? "bold" : "normal";
+    monthlyElement.style.fontWeight = !checkbox.checked ? "bold" : "normal";
+    monthlyElement.style.fontWeight = checkbox.checked ? "normal" : "bold"; 
+    perMonthElement.textContent = checkbox.checked ? "19.99" : "25";
+}
     
-        yearlyElement.style.fontWeight = checkbox.checked ? "bold" : "normal";
-        monthlyElement.style.fontWeight = !checkbox.checked ? "bold" : "normal";
-        monthlyElement.style.fontWeight = checkbox.checked ? "normal" : "bold"; 
-        perMonthElement.textContent = checkbox.checked ? "19.99" : "25";
-    }
-    
-    
+function changeTextNew1 () {
+    var proElement = document.getElementById("pro5");
+    proElement.textContent = "15 Pro";
 
+    var clients5Element = document.getElementById("clients5");
+    clients5Element.textContent = "Up to 15 clients";
+
+    var clients5Element = document.getElementById("included");
+    clients5Element.textContent = "Included in 15 Pro plan:";
+
+}
+
+function changeTextNew1 () {
+    var proElement = document.getElementById("pro5");
+    proElement.textContent = "15 Pro";
+
+    var clients5Element = document.getElementById("clients5");
+    clients5Element.textContent = "Up to 15 clients";
+
+    var clients5Element = document.getElementById("included");
+    clients5Element.textContent = "Included in 15 Pro plan:";
+
+}
 
