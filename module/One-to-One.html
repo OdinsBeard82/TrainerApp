@@ -111,7 +111,10 @@
         <p class="unlockingPotential">Unlocking the potential for success, personal trainers thrive on delivering 
             exceptional results. ABC Trainerize simplifies and enhances this process, making the achievement of 
             fitness goals more accessible than ever.</p>
-        <label class="switch">
+
+        <label class="switch" onclick="changeSlider()">
+            <p class="monthlyPricing" id="monthlyPricing">MONTHLY PRICING</p>
+            <p class="yearlyPricing" id="yearlyPricing">Yearly Pricing</p>
             <input type="checkbox">
             <span class="slider round"></span>
           </label>
@@ -121,7 +124,7 @@
             <div class="headerList">
                 <li class="clients5">Up to 5 clients</li>
                 <li class="unlimited">Unlimited</li>
-                <p class="included">Included in 5 Pro plan:</p>
+                <p class="included" id="included">Included in 5 Pro plan:</p>
                 <div class="includedList">
                     <li>Workout Programs and Tracking</li>
                     <li>Automated Program Delivery</li>
@@ -156,13 +159,13 @@
                     <button class="dropbtn2" onclick="toggleDropdown2()">Up to 5 clients</button>
                     <div class="dropdown-content2" id="myDropdown2">
                         <ul>
-                            <li><a class="proFive" onclick="changeText0()">Up to 5 clients</a></li>
-                            <li><a class="pro15" onclick="changeText0()">Up to 15 clients</a></li>
-                            <li><a class="pro30" onclick="changeText0()">Up to 30 clients</a></li>
-                            <li><a class="pro50" onclick="changeText0()">Up to 50 clients</a></li>
-                            <li><a class="pro75" onclick="changeText0()">Up to 75 clients</a></li>
-                            <li><a class="pro100" onclick="changeText0()">Up to 100 clients</a></li>
-                            <li><a class="pro200" onclick="changeText0()">Up to 200 clients</a></li>
+                            <li><a class="proFive" onclick="changeTextNew0()">Up to 5 clients</a></li>
+                            <li><a class="pro15" onclick="changeTextNew1()">Up to 15 clients</a></li>
+                            <li><a class="pro30" onclick="changeTextNew2()">Up to 30 clients</a></li>
+                            <li><a class="pro50" onclick="changeTextNew3()">Up to 50 clients</a></li>
+                            <li><a class="pro75" onclick="changeTextNew4()">Up to 75 clients</a></li>
+                            <li><a class="pro100" onclick="changeTextNew5()">Up to 100 clients</a></li>
+                            <li><a class="pro200" onclick="changeTextNew6()">Up to 200 clients</a></li>
                         </ul>
                     </div>
                 </div>

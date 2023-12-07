@@ -122,7 +122,6 @@
     transition: .4s;
   }
 
-
 input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
@@ -136,6 +135,26 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
   }
+
+.yearlyPricing {
+    position: absolute;
+    top: 50%;
+    left: 150%; 
+    transform: translate(-50%, -50%);
+}
+
+.monthlyPricing {
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.taxes {
+    padding: 5px;
+    font-size: 10px;
+}
 
 .pro {
     margin-top: 5%;
