@@ -91,14 +91,16 @@ function navigateToPage(buttonId) {
     
     function changeSlider() {
         var yearlyElement = document.getElementById("yearlyPricing");
-        var monthlyElement = document.getElementById("monthlyPricing")
+        var monthlyElement = document.getElementById("monthlyPricing");
         var checkbox = document.querySelector('.switch input');
+        var perMonthElement = document.getElementById("monthlyAmount");
     
         yearlyElement.style.fontWeight = checkbox.checked ? "bold" : "normal";
         monthlyElement.style.fontWeight = !checkbox.checked ? "bold" : "normal";
-        monthlyElement.stule.fontWeight = checkbox.checked ? "normal" : "bold";
-
+        monthlyElement.style.fontWeight = checkbox.checked ? "normal" : "bold"; 
+        perMonthElement.textContent = checkbox.checked ? "19.99" : "25";
     }
+    
     
 
 
