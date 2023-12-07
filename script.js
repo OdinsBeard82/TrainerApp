@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', function () {
     setupButtonClick("pricing");
     setupButtonClick("about"); 
     setupButtonClick("signIn"); 
-    setupButtonClick("trainerApp2"); 
+    setupButtonClick("trainerApp2");
+
 });
 
 function setupButtonClick(buttonId) {
@@ -99,27 +100,5 @@ function changeSlider() {
     perMonthElement.textContent = checkbox.checked ? "19.99" : "25";
 }
     
-function changeTextNew1 () {
-    var proElement = document.getElementById("pro5");
-    proElement.textContent = "15 Pro";
 
-    var clients5Element = document.getElementById("clients5");
-    clients5Element.textContent = "Up to 15 clients";
-
-    var clients5Element = document.getElementById("included");
-    clients5Element.textContent = "Included in 15 Pro plan:";
-
-}
-
-function changeTextNew1 () {
-    var proElement = document.getElementById("pro5");
-    proElement.textContent = "15 Pro";
-
-    var clients5Element = document.getElementById("clients5");
-    clients5Element.textContent = "Up to 15 clients";
-
-    var clients5Element = document.getElementById("included");
-    clients5Element.textContent = "Included in 15 Pro plan:";
-
-}
 
