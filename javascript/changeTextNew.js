@@ -8,6 +8,9 @@ function changeTextNew0 () {
     var clients5Element = document.getElementById("included");
     clients5Element.textContent = "Included in 5 Pro plan:";
 
+    var clients5Element = document.getElementById("monthlyAmount");
+    clients5Element.textContent = "24.99";
+
 }
 
 function changeTextNew1 () {
@@ -20,6 +23,8 @@ function changeTextNew1 () {
     var clients5Element = document.getElementById("included");
     clients5Element.textContent = "Included in 15 Pro plan:";
 
+    var clients5Element = document.getElementById("monthlyAmount");
+    clients5Element.textContent = "45";
 }
 
 function changeTextNew2 () {
@@ -31,6 +36,9 @@ function changeTextNew2 () {
 
     var clients5Element = document.getElementById("included");
     clients5Element.textContent = "Included in 30 Pro plan:";
+
+    var clients5Element = document.getElementById("monthlyAmount");
+    clients5Element.textContent = "69.99";
 
 }
 
@@ -44,6 +52,10 @@ function changeTextNew3 () {
     var clients5Element = document.getElementById("included");
     clients5Element.textContent = "Included in 50 Pro plan:";
 
+    var clients5Element = document.getElementById("monthlyAmount");
+    clients5Element.textContent = "99.99";
+
+
 }
 
 function changeTextNew4 () {
@@ -56,6 +68,10 @@ function changeTextNew4 () {
     var clients5Element = document.getElementById("included");
     clients5Element.textContent = "Included in 75 Pro plan:";
 
+    var clients5Element = document.getElementById("monthlyAmount");
+    clients5Element.textContent = "149.99";
+
+
 }
 
 function changeTextNew5 () {
@@ -67,6 +83,9 @@ function changeTextNew5 () {
 
     var clients5Element = document.getElementById("included");
     clients5Element.textContent = "Included in 100 Pro plan:";
+   
+    var clients5Element = document.getElementById("monthlyAmount");
+    clients5Element.textContent = "165";
 
 }
 
@@ -79,5 +98,9 @@ function changeTextNew6 () {
 
     var clients5Element = document.getElementById("included");
     clients5Element.textContent = "Included in 200 Pro plan:";
+    
+    var clients5Element = document.getElementById("monthlyAmount");
+    clients5Element.textContent = "179.99";
+
 
 }

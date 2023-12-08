@@ -4,8 +4,8 @@
 
 
 .monthlyYearly {
-    background-color: black;
-    color: white;
+    background-color: rgb(240, 238, 238);
+    color: black;
     margin-top: 46%; 
     text-align: center;
     height: 1000px;
@@ -27,8 +27,8 @@
 }
 
 .priceChoices {
-    background-color: rgb(216, 216, 216);
-    width: 30%;
+  background-color: rgb(240, 238, 238);
+  width: 30%;
     height: 500px;
     border-radius: 12px;
     margin-left: 3%;
