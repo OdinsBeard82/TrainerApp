@@ -1,6 +1,8 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     setupButtonClick("trainerApp2");
+    setupButtonClick("getStartedButton4");
+
 });
 
 function setupButtonClick(buttonId) {
@@ -12,6 +14,7 @@ function setupButtonClick(buttonId) {
 function navigateToPage(buttonId) {
     const pageMap = {
         trainerApp2: '../index.html',
+        getStartedButton4: '../module/getStarted.html'
     };
 
     const pageUrl = pageMap[buttonId];
