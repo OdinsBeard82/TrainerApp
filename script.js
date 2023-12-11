@@ -8,8 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
     setupButtonClick("pricing");
     setupButtonClick("about"); 
     setupButtonClick("signIn"); 
-    setupButtonClick("trainerApp2");
-
 });
 
 function setupButtonClick(buttonId) {
@@ -29,7 +27,6 @@ function navigateToPage(buttonId) {
         pricing: './module/pricing.html',
         about: './module/about.html',
         signIn: './module/signIn.html',
-        trainerApp2: "./index.html"
     };
 
     const pageUrl = pageMap[buttonId];

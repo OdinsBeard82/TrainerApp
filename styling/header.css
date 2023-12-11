@@ -22,7 +22,8 @@ header {
 }
 
 .started,
-.started2 {
+.started2,
+.started4 {
     color: black;
     background-color: orange;
     padding: 10px 20px;
@@ -93,6 +94,8 @@ header {
 .TrainerApp:hover,
 .TrainerApp2:hover,
 .getStarted:hover,
+.getStarted2:hover,
+.getStarted4:hover,
 .navbar-toggler:hover {
     cursor: pointer;
 }

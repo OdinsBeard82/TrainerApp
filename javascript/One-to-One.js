@@ -1,7 +1,23 @@
-export function changeText2() {
-    var headingElement = document.getElementById("heading");
-    var paragraphElement = document.getElementById("paragraph");
 
-    headingElement.textContent = "Build Brand";
-    paragraphElement.textContent = "A tailor-made, branded application that distinctly represents you and your brand stands as the optimal means to captivate clients and provide unparalleled, personalized experiences.";
+document.addEventListener('DOMContentLoaded', function () {
+    setupButtonClick("trainerApp2");
+});
+
+function setupButtonClick(buttonId) {
+    document.getElementById(buttonId).onclick = function () {
+        navigateToPage(buttonId);
+    };
+}
+
+function navigateToPage(buttonId) {
+    const pageMap = {
+        trainerApp2: '../index.html',
+    };
+
+    const pageUrl = pageMap[buttonId];
+    if (pageUrl) {
+        window.location.href = pageUrl;
+    } else {
+        console.error(`Page URL not defined for button with ID: ${buttonId}`);
+    }
 }
