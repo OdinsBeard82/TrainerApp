@@ -1,6 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     setupButtonClick("trainerApp2");
+    setupButtonClick("getStartedButton3");
     setupButtonClick("getStartedButton4");
     setupButtonClick("getStartedButton5");
 
@@ -15,6 +16,7 @@ function setupButtonClick(buttonId) {
 function navigateToPage(buttonId) {
     const pageMap = {
         trainerApp2: '../index.html',
+        getStartedButton3: '../module/getStarted.html',
         getStartedButton4: '../module/getStarted.html',
         getStartedButton5: '../module/getStarted.html'
 
