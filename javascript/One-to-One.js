@@ -2,6 +2,9 @@
 document.addEventListener('DOMContentLoaded', function () {
     setupButtonClick("trainerApp2");
     setupButtonClick("pricing2");
+    setupButtonClick("about2");
+    setupButtonClick("signIn2");
+    setupButtonClick('nutritionLink3');
     setupButtonClick("getStartedButton3");
     setupButtonClick("getStartedButton4");
     setupButtonClick("getStartedButton5");
@@ -21,6 +24,9 @@ function navigateToPage(buttonId) {
     const pageMap = {
         trainerApp2: '../index.html',
         pricing2: '../module/pricing.html',
+        about2: '../module/about.html',
+        signIn2: '../module/signIn.html',
+        nutritionLink3: '../module/nutritionPage.html',
         getStartedButton3: '../module/getStarted.html',
         getStartedButton4: '../module/getStarted.html',
         getStartedButton5: '../module/getStarted.html',
