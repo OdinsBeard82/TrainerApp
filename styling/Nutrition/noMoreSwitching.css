@@ -25,7 +25,6 @@
     width: 50%;
     height: 100%;
     background: linear-gradient(orange 50%)
-    z-index: -1; 
   }
 
 .saveTime {

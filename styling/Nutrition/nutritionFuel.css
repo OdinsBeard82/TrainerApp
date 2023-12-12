@@ -1,0 +1,54 @@
+.nutritionFuel {
+    height: 1300px;
+    background-color: rgb(244, 243, 243);
+}
+
+.igniteBusiness {
+    font-size: 36px;
+    width: 750px;
+    font-weight: bold;
+    color: black;
+    margin-left: 25%;
+    padding-top: 150px;
+}
+
+.introduceWatch,
+.boostDive {
+    display: flex;
+}
+
+.introduce {
+    width: 400px;
+    transform: rotate(90deg);
+    margin-left: 230px;
+    border-radius: 18px;
+}
+.watch { 
+    background-color: #00A181;
+    width: 500px;
+    height: 400px;
+    border-radius: 18px;
+    margin-left: 70px;
+    margin-top: 50px;
+
+}
+
+
+.boost { 
+    background-color: #00A181;
+    width: 500px;
+    height: 400px;
+    border-radius: 18px;
+    margin-left: 180px;
+    margin-top: -25px;
+}
+
+.drive { 
+    width: 500px;
+    height: 400px;
+    background-color: aquamarine;
+    border-radius: 18px;
+    margin-top: -430px;
+    margin-left: 700px;
+
+}
