@@ -1,0 +1,90 @@
+.trainingStyles2 {
+    position: relative;
+    color: black;
+}
+
+.headstand,
+.yoga,
+.dunker,
+.watchTrack,
+.swish {
+    position: absolute;
+}
+
+.headstand {
+    margin-left: 8%;
+    border-radius: 12px;
+    z-index: 2;
+    margin-top: 5%;
+    width: 10%;
+}
+
+.dunker {
+    margin-left: 8%;
+    border-radius: 12px;
+    z-index: -2;
+    margin-top: 22%;
+    width: 10%;
+}
+
+.yoga {
+    width: 11%;
+    height: 250px;
+    border-radius: 12px;
+    z-index: 3;
+    margin-left: 35%;
+    margin-top: 20%;
+}
+
+.watchTrack {
+    width: 15%;
+    margin-top: 10%;
+    margin-left: 19%;
+    z-index: 0;
+    border-radius: 12px;
+}
+
+.swish {
+    width: 11%;
+    z-index: 1;
+    border-radius: 12px;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+.versitileTraining2 {
+    position: absolute;
+    width: 50%;
+    height: 420px;
+    border-radius: 14px;
+    color: black;
+    padding: 140px;
+    border-radius: 8px;
+    right: 30px;
+}
+
+.deliver2 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.started3 {
+    color: orange;
+    background-color: black;
+    padding: 3px 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    height: 40%;
+    width: 70%;
+    margin: 20px;
+}
+
+.coachingStyles2 {
+    margin-top: 20px;
+}

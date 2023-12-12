@@ -1,0 +1,14 @@
+.createAccount {
+    background-color: orange;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+#Form-Container {
+    max-width: 400px; 
+    padding: 20px; 
+    border-radius: 26px;
+  }

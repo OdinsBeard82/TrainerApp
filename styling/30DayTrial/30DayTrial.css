@@ -1,0 +1,46 @@
+.freeTrial {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .getStarted6 {
+    background-color: orange;
+    border-radius: 0;
+    margin-left: 322px;
+    margin-top: -68px;
+    height: 58px; 
+  }
+  
+  .email6 {
+    border-radius: 0;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 58px;
+    width: 350px;
+    border-color: orange;
+    margin-left: 20px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    margin-right: 200px;
+  }
+  
+  .miniText {
+    padding: 24px;
+    font-size: 12px;
+  }
+
+  .ignite {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .newTrial {
+    font-weight: bold;
+    font-size: 44px;
+  }

@@ -1,0 +1,19 @@
+.content {
+    width: 50%;
+    color: black;
+    padding: 135px;
+    margin-top: 115px;
+    border-radius: 8px;
+    background-color: rgb(240, 238, 238);
+}
+
+.inKitchen img {
+    position: absolute;
+    top: 49%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 50%;
+    height: 68%;
+    border-radius: 8px;
+}
+
