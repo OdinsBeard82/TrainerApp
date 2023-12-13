@@ -1,0 +1,57 @@
+.plans {
+    height: 700px;
+}
+
+.plansText {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.switchPlan {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin-left: 45%;
+  }
+  
+.switchPlan input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 45px;
+    width: 45px;
+    left: 4px;
+    bottom: 3px;
+    background-color: orange;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .monthlyPricingPlan {
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
