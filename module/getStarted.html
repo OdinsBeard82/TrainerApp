@@ -9,18 +9,23 @@
 </head>
 <body>
     <header>
-        <h1 class="TrainerApp" id="trainerApp">TRAINERAPP</h1>
+        <h1 class="TrainerApp" id="trainerApp10">TRAINERAPP</h1>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar">
             <span class="navbar-toggler-icon"></span>
             <span class="navbar-toggler-icon"></span>
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="container3">
-        <button class="coaches">Coaches</button>
-        <button class="pricing">Pricing</button>
-        <button class="about">About</button>
-        <button class="signIn">Sign in</button>
-        <button class="started2">Get Started</button>
+            <div class="dropdown">
+                <button id="coachingButton" class="dropdown-button">Coaching</button>
+                <div class="dropdown-options">
+                    <a id="oneToOneLink10" class="oneToOne" href="#">One-to-One</a>
+                    <a id="nutritionLink10" href="#">Nutrition</a>
+                </div>
+            </div>
+        <button class="pricing" id="pricing10">Pricing</button>
+        <button class="about" id="about10">About</button>
+        <button class="signIn" id="signIn10">Sign in</button>
     </header>
 </div>
     <div class="main-content2">
@@ -50,5 +55,6 @@
     <div class="container">
     </div>   
     <script src="../script.js"></script>  
+    <script src="../javascript//getStarted.js"></script>  
 </body>
 </html>
