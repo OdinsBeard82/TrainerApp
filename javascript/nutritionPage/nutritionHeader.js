@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setupButtonClick('nutritionPricing');
     setupButtonClick('nutritionAbout');
     setupButtonClick('nutritionSignIn');
-
+    setupButtonClick('newgetStartedButton3');
 });
 
 function setupButtonClick(buttonId) {
@@ -19,12 +19,12 @@ function navigateToPage(buttonId) {
     const pageMap = {
         newgetStartedButton: '..//module/getStarted.html',
         newgetStartedButton2: '..//module/getStarted.html',
+        newgetStartedButton3: '..//module/getStarted.html',
         newtrainerApp: '..//index.html',
         newoneToOneLink: '..//module/One-to-One.html',
         nutritionPricing: '..//module/pricing.html',
         nutritionAbout: '..//module/about.html',
         nutritionSignIn: '..//module/signIn.html',
-
     };
 
     const pageUrl = pageMap[buttonId];
