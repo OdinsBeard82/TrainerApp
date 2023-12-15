@@ -66,3 +66,92 @@
     color: black;
 
 }
+.subjectTo { 
+    color: black;
+    text-align: center;
+    font-size: 12px;
+}
+
+.subsriptionsPricing {
+    height: 1000px;
+    display: inline-flex;
+    margin: 90px;
+}
+
+.grandMaster,
+.pro5Pricing,
+.gettingGoing,
+.freedom   {
+    width: 300px;
+    height:700px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 18px;
+    border-top: 25px solid orange;
+}
+
+.pro5Pricing,
+.gettingGoing,
+.freedom  {
+    margin-right: 15px;
+}
+
+.startedPricing2,
+.startedPricing3,
+.startedPricing4 {
+    margin-top: 100%;
+    margin-left: 25%;
+    background-color: orange;
+    font-weight: bold;
+}
+
+.startedPricing1,
+.startedPricing2,
+.startedPricing3,
+.startedPricing4 {
+    margin-top: 5%;
+    margin-left: 10%;
+    background-color: orange;
+    font-weight: bold;
+    width: 80%;
+}
+
+.free {
+    color: black;
+    font-size: 34px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.firstStep {
+    text-align: left;
+    margin-left: 30px;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 55px;
+}
+
+.free2 {
+    color: black;
+    font-size: 46px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.growPlan {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.completeList {
+    color: black;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.thisList {
+    margin-top: 3px;
+}
