@@ -48,7 +48,7 @@
     transition: .4s;
   }
 
-  .monthlyPricingPlan {
+.monthlyPricingPlan {
     position: absolute;
     margin-top: 27px;
     right: 100%;
@@ -95,19 +95,10 @@
     margin-right: 15px;
 }
 
-.startedPricing2,
-.startedPricing3,
-.startedPricing4 {
-    margin-top: 100%;
-    margin-left: 25%;
-    background-color: orange;
-    font-weight: bold;
-}
+
 
 .startedPricing1,
-.startedPricing2,
-.startedPricing3,
-.startedPricing4 {
+.startedPricing2 {
     margin-top: 5%;
     margin-left: 10%;
     background-color: orange;
@@ -115,11 +106,19 @@
     width: 80%;
 }
 
+.startedPricing3,
+.startedPricing4 {
+    margin-top: 1%;
+    margin-left: 10%;
+    background-color: orange;
+    font-weight: bold;
+    width: 80%;
+}
 .free {
     color: black;
     font-size: 34px;
     margin-left: 30px;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .firstStep {
@@ -127,14 +126,23 @@
     margin-left: 30px;
     color: black;
     font-size: 14px;
-    margin-bottom: 55px;
+    margin-bottom: 25px;
 }
 
 .free2 {
     color: black;
     font-size: 46px;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.free3,
+.free4 {
+    color: black;
+    font-size: 46px;
+    margin-left: 30px;
+    margin-top: 10px;
     font-weight: bold;
 }
 
