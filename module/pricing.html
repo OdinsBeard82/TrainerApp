@@ -32,7 +32,7 @@
         <div class="plansText">Plans to fit you, with lots of room for growth.</div>
     </div>
 
-    <label class="switchPlan" onclick="changeSlider2()">
+    <label class="switchPlan" id="switchPlan" onclick="changeSlider2()">
         <p class="monthlyPricingPlan" id="monthlyPricingPlan">MONTHLY PRICING</p>
         <p class="yearlyPricingplan" id="yearlyPricingplan">Yearly Pricing</p>
         <input type="checkbox">
@@ -82,21 +82,25 @@
             </ul>
         </div>
         <div class="pro5Pricing">
-            <div class="free">5 Pro</div>
+            <div class="free" id="freePricing1">5 Pro</div>
             <div class="firstStep">Take the first step by exploring ABC Trainerize or testing the 
                 waters with a single coaching client—completely free, with no need 
                 for a credit card.</div>
 
                 <div class="dropdown3">
-                    <button class="dropbtn3">Dropdown</button>
+                    <button class="dropbtn3" id="dropbtn3" >Up to 5 Clients</button>
                     <div class="dropdown-content3">
-                      <a href="#">Link 1</a>
-                      <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
+                      <a onclick="changeDrpDwn1()" id="client5" href="#">Up to 5 clients</a>
+                      <a onclick="changeDrpDwn2()" id="client15" href="#">Up to 15 clients</a>
+                      <a onclick="changeDrpDwn3()" id="client30" href="#">Up to 30 clients</a>
+                      <a onclick="changeDrpDwn4()" id="client50" href="#">Up to 50 clients</a>
+                      <a onclick="changeDrpDwn5()" id="client75" href="#">Up to 75 clients</a>
+                      <a onclick="changeDrpDwn6()" id="client100" href="#">Up to 100 clients</a>
+                      <a onclick="changeDrpDwn7()" id="client200" href="#">Up to 200 clients</a>
                     </div>
                   </div>
                   
-            <div class="free3" id="free3">£29.99</div>
+            <div class="free3" id="free3">£30</div>
             <button class="startedPricing4" id="getStartedPricing4">Get Started</button>
             <div class="growPlan">Grow Plan:</div>
             <ul class="completeList">
@@ -119,9 +123,12 @@
                 <div class="dropdown3">
                     <button class="dropbtn3">Dropdown</button>
                     <div class="dropdown-content3">
-                      <a href="#">Link 1</a>
-                      <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
+                        <a href="">Up to 5 clients</a>
+                        <a href="#">Up to 15 clients</a>
+                        <a href="#">Up to 30 clients</a>
+                        <a href="#">Up to 50 clients</a>
+                        <a href="#">Up to 75 clients</a>
+                        <a href="#">Up to 100 clients</a>
                     </div>
                   </div>
 
@@ -144,5 +151,7 @@
 
     <script src="../script.js"></script> 
     <script src="../javascript/pricing js/pricingPlan.js"></script> 
+    <script src="../javascript/pricing js/drpdwnpricing1.js"></script> 
+    <script src="../javascript/pricing js/sliderPricing.js"></script> 
 </body>
 </html>
