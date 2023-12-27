@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
+    setupButtonClick("signIn1"); 
+    setupButtonClick("about1"); 
+    setupButtonClick("pricing1");
     setupButtonClick("trainerApp");
     setupButtonClick("getStartedButton");
     setupButtonClick("getStartedButton2");
     setupButtonClick("oneToOneLink");
     setupButtonClick("nutritionLink");
     setupButtonClick("onlineLink");
-    setupButtonClick("pricing");
-    setupButtonClick("about"); 
-    setupButtonClick("signIn"); 
 });
 
 function setupButtonClick(buttonId) {
@@ -18,15 +18,15 @@ function setupButtonClick(buttonId) {
 
 function navigateToPage(buttonId) {
     const pageMap = {
+        signIn1: './module/signIn.html',
+        about1: './module/about.html',
+        pricing1: './module/pricing.html',
         trainerApp: './index.html',
         getStartedButton: './module/getStarted.html',
         getStartedButton2: './module/getStarted.html',
         oneToOneLink: './module/One-to-One.html',
         nutritionLink: './module/nutritionPage.html',
         onlineLink: './module/online.html',
-        pricing: './module/pricing.html',
-        about: './module/about.html',
-        signIn: './module/signIn.html',
     };
 
     const pageUrl = pageMap[buttonId];

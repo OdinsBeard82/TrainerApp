@@ -1,4 +1,5 @@
 function changeDrpDwn1() {
+    
     var checkbox = document.querySelector('.switchPlan input[type="checkbox"]');
 
     if (checkbox.checked) {
@@ -21,7 +22,6 @@ function changeDrpDwn1() {
     var drpMenuElement = document.getElementById("dropbtn3");
     drpMenuElement.textContent = "Up to 5 Clients";
     }
-
 }
 
 function changeDrpDwn2() {
