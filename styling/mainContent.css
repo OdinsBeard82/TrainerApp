@@ -65,7 +65,8 @@
     display: flex;
 }
 
-.getStartedBegin {
+.getStartedBegin,
+.getStartedOneToONe1 {
     color: orange;
     background-color: black;
     font-weight: bold;
@@ -81,7 +82,8 @@
     border-radius: 3px;
 
 }
-.emailBegin {
+.emailBegin,
+.emailOneToOne1 {
     padding: 2.8% 20%;
     border-radius: 3px;
     width: 250px;
