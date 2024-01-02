@@ -2,7 +2,7 @@
     position: absolute;
     width: 50%;
     height: 420px;
-    top: 983px;
+    top: 950px;
     bottom: 0px;
     right: 1px;
     border-radius: 14px;
@@ -25,7 +25,7 @@
 
 .container2 {
     position: relative;
-    margin-top: 75px; 
+    margin-top: 140px; 
     color: black;    
 }
 
@@ -39,14 +39,14 @@
     z-index: 1;
 }
 
-.stats img,
-.revenue img {
+.stats img {
     width: 15%; 
     height: 15%;
     border-radius: 12px;
     margin-left: 25%;
     margin-top: -5%;
 }
+
 .stats img {
     opacity: 0.8;
 }
@@ -55,6 +55,8 @@
     width: 50%;
     color: black;
     padding: 140px;
-    margin-top: 70px; 
+    margin-top: 0px; 
     border-radius: 8px;
 }
+
+

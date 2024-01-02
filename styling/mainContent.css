@@ -68,29 +68,3 @@
     padding: 2.8% 20%;
     border-radius: 3px;
 }
-
-@media screen and (max-width: 767px) {
-
-    .main-content {
-        flex-direction: column; 
-    }
-
-    .mainInnerContent,
-    .container {
-        width: 100%; 
-    }
-
-    .video-class {
-        position: static;
-    }
-
-    .video-class video,
-    .sunsetrun img {
-        width: 100%; 
-        max-width: none; 
-    }
-
-    .sunsetrun img {
-        position: static; 
-    }
-}

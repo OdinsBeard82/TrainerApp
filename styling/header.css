@@ -104,7 +104,8 @@ button {
   .about,
   .signIn,
   .started,
-  .container {
+  .video-class,
+  .sunsetrun {
     display: none;
   }
 

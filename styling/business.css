@@ -7,12 +7,7 @@
     padding: 140px;
     border-radius: 8px;
     right: 30px;
-}
-
-.revenue {
-    width: 70%; 
-    height: 40%;
-    z-index: 3;
+    margin-top: -60px;
 }
 
 .businessGrowth img {
@@ -21,4 +16,14 @@
     margin-top: -40%;
     margin-left: 10%;
     z-index: 2;
+}
+
+.revenue img {
+    width: 15%; 
+    height: 15%;
+    border-radius: 12px;
+    margin-left: 15%;
+    margin-top: -5%;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 70%);
+
 }
