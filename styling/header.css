@@ -104,7 +104,7 @@ button {
   .about,
   .signIn,
   .started,
-  .mission1 {
+  .container {
     display: none;
   }
 
