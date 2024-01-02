@@ -103,7 +103,8 @@ button {
   .pricing,
   .about,
   .signIn,
-  .started {
+  .started,
+  .mission1 {
     display: none;
   }
 
