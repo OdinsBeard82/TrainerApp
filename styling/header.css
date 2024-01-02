@@ -1,5 +1,4 @@
 header {
-  position: fixed;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -11,11 +10,6 @@ header {
   transition: background-color 0.3s ease;
 }
 
-@media only screen and (max-width: 768px) {
-  header {
-    padding: 15px;
-  }
-}
 
 .typesOfBusiness,
 .pricing,
@@ -104,4 +98,5 @@ button {
 .navbar-toggler:hover {
   cursor: pointer;
 }
+
 

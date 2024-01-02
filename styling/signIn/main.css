@@ -17,3 +17,34 @@
     border-radius: 8px;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* 100% of the viewport height */
+}
+
+.half {
+    flex: 1; /* Takes up 50% of the container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    background-color: #ddd; /* Placeholder background color for the image container */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-container {
+    background-color: #f0f0f0; /* Placeholder background color for the text container */
+}

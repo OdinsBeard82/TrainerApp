@@ -1,5 +1,5 @@
-.layout {
-    margin-top: -25%;
+.theMissionLayout2 {
+    margin-top: -30%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 25px;
@@ -15,21 +15,20 @@
     z-index: 1;
 }
 
-.layout1 {
+.theMisssionlayout1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 8px;
 }
 
- .fitnssJourney {
-  height: 950px;
+ .theMissionImage {
+  max-width: 1450px;
   filter: grayscale(100%);
   z-index: -1;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 80%);
-
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 70%);
 }
 
-.fitnssJourney text {
+.theMissionImage text {
     color: black;
     z-index: 2;
     margin-top: -25%;
@@ -48,8 +47,8 @@
 
 .image-text-header {
     position: absolute;
-    top: 35%;
-    left: 32%;
+    top: 45%;
+    left: 30%;
     transform: translate(-50%, -50%);
     color: orange; 
     font-size: 46px;
@@ -60,8 +59,8 @@
 
 .image-text {
     position: absolute;
-    top: 50%;
-    left: 32%;
+    top: 60%;
+    left: 30%;
     transform: translate(-50%, -50%);
     color: white; 
     font-size: 18px;
@@ -71,8 +70,8 @@
 
 .theMission {
     position: absolute;
-    top: 26%;
-    left: 16%;
+    top: 35%;
+    left: 14%;
     transform: translate(-50%, -50%);
     color: white; 
     font-size: 18px;

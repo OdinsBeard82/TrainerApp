@@ -1,45 +1,36 @@
 .mainInnerContent {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr;
     width: 50%;
     color: black;
-    padding: 6.6%;
-    margin-top: 4.75%;
+    padding: 6.4%;
     border-radius: 8px;
     background-color: rgb(240, 238, 238);
 }
 
 .sunsetrun img {
     position: absolute;
-    top: 40%;
+    top: 46.25%;
     right: 0;
     transform: translateY(-50%);
-    width: 50%; 
-    border-radius: 8px;
+    width: 50%;
     max-width: 100%;
-    
+    border-radius: 8px;
 }
 
-@media only screen and (max-width: 768px) {
-    .sunsetrun img {
-        display: inline-block;
-    }
-}
 .New {
     font-size: 32px;
     color: black;
-    
 }
 
-.video-class video
- {
+.video-class video {
     position: absolute;
     top: 46.5%;
+    right: 16%;
     height: auto;
     z-index: 3;
-    border-radius: 8px; 
-    max-width: 30%; 
-    right: 16%;
+    border-radius: 8px;
+    max-width: 30%;
     object-fit: cover;
     transform: translateY(-50%);
     border: solid 5px black;
@@ -50,13 +41,8 @@
 .getAndKeep {
     font-size: 15px;
     font-weight: 400;
-    display: flex;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     color: black;
-    
+    margin: 1em 0;
 }
 
 .form-container {
@@ -64,7 +50,8 @@
 }
 
 .getStartedBegin,
-.getStartedOneToONe1 {
+.getStartedOneToONe1,
+.email {
     color: orange;
     background-color: black;
     font-weight: bold;
@@ -75,15 +62,35 @@
     white-space: nowrap;
 }
 
-.email {
-    padding: 2.8% 20%;
-    border-radius: 3px;
-
-}
+.email,
 .emailBegin,
 .emailOneToOne1 {
     padding: 2.8% 20%;
     border-radius: 3px;
-    width: 250px;
+}
 
+@media screen and (max-width: 767px) {
+
+    .main-content {
+        flex-direction: column; 
+    }
+
+    .mainInnerContent,
+    .container {
+        width: 100%; 
+    }
+
+    .video-class {
+        position: static;
+    }
+
+    .video-class video,
+    .sunsetrun img {
+        width: 100%; 
+        max-width: none; 
+    }
+
+    .sunsetrun img {
+        position: static; 
+    }
 }
