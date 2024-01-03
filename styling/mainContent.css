@@ -77,7 +77,7 @@
     width:100%;
     }
 
-    .NewPara,
+.NewPara,
 .clientEngagement,
 .getAndKeep {
     font-size: 12px;
@@ -90,6 +90,25 @@
     color: black;
     font-weight: bold;
 }
-    
+
+.mainInnerContent {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    color: black;
+    padding: 6.4%;
+    border-radius: 8px;
+    background-color: rgb(240, 238, 238);
+}
+.sunsetrun img  {
+        width: 100%;
+        top: 74.25%;
+    }
+
+    .video-class video {
+        max-width: 60%;
+        top: 74.25%;
+        right: 32.5%;
+    }
   
   }

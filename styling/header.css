@@ -103,9 +103,7 @@ button {
   .pricing,
   .about,
   .signIn,
-  .started2,
-  .video-class,
-  .sunsetrun {
+  .started2{
     display: none;
   }
 
