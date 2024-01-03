@@ -14,3 +14,81 @@
     margin-left: 70%;
     margin-top: -5%;
 }
+
+.engagement {
+    width: 50%;
+    color: black;
+    padding: 140px;
+    margin-top: 0px; 
+    border-radius: 8px;
+}
+
+.clientEngagement {
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    margin: 1em 0;
+}
+
+@media screen and (max-width: 767px) {
+   
+
+    .cultivateDaily{
+        font-size: 18px;
+        font-weight: bold;
+        padding: 0px;
+        
+    }
+
+    .engagement {
+        width: 50%;
+        color: black;
+        margin-top: 0px; 
+        border-radius: 8px;
+        padding: 0px;
+        margin-top: 50px;
+
+    }
+
+    .outdoorPT img {
+    width: 20%; 
+    height: 200px;
+    border-radius: 12px;
+    margin-left: 60%;
+    margin-top: -70%;
+    z-index: -1;
+}
+
+.clientApp img {
+    width: 15%; 
+    height: 15%;
+    border-radius: 12px;
+    margin-left: 70%;
+    margin-top: -5%;
+}
+
+.engagement {
+        width: 50%;
+        height: 420px;
+        top: 930px;
+        bottom: 0px;
+        right: 1px;
+        border-radius: 14px;
+        color: black;
+        padding: 0px;
+        border-radius: 8px;
+        padding-left: 10px;
+}
+
+.clientEngagement {
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+    margin: 1em 0;
+}
+
+.engagementcontainer {
+    padding-top: 30px;
+}
+
+}

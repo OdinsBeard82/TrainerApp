@@ -51,11 +51,23 @@
     opacity: 0.8;
 }
 
-.engagement {
-    width: 50%;
-    color: black;
-    padding: 140px;
-    margin-top: 0px; 
-    border-radius: 8px;
-}
 
+@media screen and (max-width: 767px) {
+    .sellOnline {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .onlineTraining {
+        position: absolute;
+        width: 50%;
+        height: 420px;
+        top: 950px;
+        bottom: 0px;
+        right: 1px;
+        border-radius: 14px;
+        color: black;
+        padding: 0px;
+        border-radius: 8px;
+    }
+
+}
