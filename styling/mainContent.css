@@ -68,7 +68,7 @@
     border-radius: 3px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1098px) {
 
 
 .container2 {
@@ -92,23 +92,27 @@
 }
 
 .mainInnerContent {
-    display: grid;
     grid-template-columns: 1fr;
     width: 100%;
     color: black;
     padding: 6.4%;
     border-radius: 8px;
     background-color: rgb(240, 238, 238);
+    margin-bottom: 5px;
 }
+
 .sunsetrun img  {
         width: 100%;
-        top: 74.25%;
+        position: absolute;
+        margin-top: 120px;
     }
 
     .video-class video {
+        position: absolute;
         max-width: 60%;
-        top: 74.25%;
         right: 32.5%;
+        margin-top: 120px;
+
     }
   
   }

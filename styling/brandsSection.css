@@ -43,13 +43,13 @@
     order: 1;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1098px) {
 
     .newSection2 {
         font-size: 18px;
         color: black;
         font-weight: bold;
-        margin-top: 400px;
+        margin-top: 50px;
     }
 
     .container4 img {

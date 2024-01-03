@@ -25,7 +25,7 @@
     margin: 20px 0 10px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1098px) {
 
     .container8 {
         display: flex;
