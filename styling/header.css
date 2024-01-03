@@ -103,12 +103,23 @@ button {
   .pricing,
   .about,
   .signIn,
-  .started,
+  .started2,
   .video-class,
   .sunsetrun {
     display: none;
   }
 
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 0px;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
 
 
 }
