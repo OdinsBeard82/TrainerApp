@@ -32,17 +32,22 @@ header {
 }
 
 .dropdown {
+
   display: inline-block;
-  position: relative;
 }
 
 .navbar-toggler {
+  margin-top: 0;
   border: none;
   color: rgb(255, 255, 255);
 }
 
 .navbar-toggler-icon {
+  margin-top: 5px;
+  display: flex;
+  margin-bottom: 5px;
   background-color: white;
+  height: 2px;
  
 }
 
