@@ -113,7 +113,8 @@ button {
   .pricing,
   .about,
   .signIn,
-  .started2{
+  .started2,
+  .dropdown-button {
     display: none;
   }
 
