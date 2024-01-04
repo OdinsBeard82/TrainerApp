@@ -52,32 +52,59 @@
 }
 
 
-@media screen and (max-width: 1098px) {
+@media screen and (max-width: 767px) {
+
+    .container2 {
+        float:none;
+        display:block;
+        width:100%;
+        margin-left: 25%;
+        }
+
     .sellOnline {
         font-size: 18px;
         font-weight: bold;
+
     }
+
+    .onlinePara {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.5;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        color: black;
+        width: 100%;
+    }
+
     .onlineTraining {
-        position: absolute;
-        width: 50%;
+        position: relative;
+        width: 100%;
         height: 420px;
-        top: 950px;
+        top: 275px;
         bottom: 0px;
-        right: 1px;
         border-radius: 14px;
         color: black;
         padding: 0px;
         border-radius: 8px;
+        text-align: center;
     }
 
-.phonewatch img,
-.trainFromHome img {
-    width: 25%; 
-    height: 150px;
+.phonewatch img{
+    width: 50%; 
+    height: 100%;
     border-radius: 12px;
-    margin-left: 12%;
-    margin-top: 5%;
+    margin-left: 3%;
+    margin-top: -500px;
     z-index: 1;
 }
 
+.stats img {
+    width: 25%;
+    opacity: 0.8;
+    margin-left: 150px;
+}
 }

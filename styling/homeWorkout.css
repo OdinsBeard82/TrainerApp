@@ -25,13 +25,14 @@
     margin: 20px 0 10px;
 }
 
-@media screen and (max-width: 1098px) {
+@media screen and (max-width: 767px) {
 
     .container8 {
         display: flex;
         justify-content: center;
         padding: 10px;
-        margin-top: 60px;
+        margin-top: 460px;
+
     }
 
 .versitile, 
@@ -47,9 +48,5 @@
     padding: 25px;
 }
 
-.section6 {
 
-    font-size: 16px;
-    font-weight: bold;
-}
 }

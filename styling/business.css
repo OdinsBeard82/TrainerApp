@@ -28,13 +28,12 @@
 
 }
 
-@media screen and (max-width: 1098px) {
+@media screen and (max-width: 767px) {
 
     .businessTitle {
         font-size: 18px;
         font-weight: bold;
         padding: 0px;
-
     }
 
     .getAndKeep {
@@ -42,19 +41,49 @@
     }
 
     .business {
-        position: absolute;
-        width: 50%;
+        position: relative;
+        width: 100%;
         height: 420px;
         border-radius: 14px;
         color: black;
         padding: 0px;
         border-radius: 8px;
         right: 10px;
-        margin-top: -60px;
+        margin-top: 500px;
+        text-align: center;
     }
 
-    .businessContainer {
-        margin-top: 60px;
+    .trainFromHome img {
+        width: 50%; 
+        height: 100%;
+        border-radius: 12px;
+        margin-left: 5%;
+        margin-top: -625px;
+        z-index: 1;
     }
+
+.container7 {
+    width: 100%; 
+    height: 150px;
+    border-radius: 12px;
+    margin-left: 25%;
+    z-index: -1;
+
+}
+
+.revenue img {
+    width: 15%; 
+    height: 15%;
+    border-radius: 12px;
+    margin-left: 10%;
+    margin-top: -15%;
+}
+
+.businessGrowth img {
+    width: 10%;
+    height: 100%;
+    margin-left: 0%;
+}
+
 
 }
