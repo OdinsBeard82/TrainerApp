@@ -68,15 +68,7 @@
     border-radius: 3px;
 }
 
-@media screen and (max-width: 1098px) {
-
-
-.container2 {
-    float:none;
-    display:block;
-    width:100%;
-    }
-
+@media screen and (max-width: 767px) {
 .NewPara,
 .clientEngagement,
 .getAndKeep {
@@ -109,10 +101,7 @@
     }
 
     .video-class video {
-        max-width: 60%;
-        right: 32.5%;
-        margin-top: 40%;
-
+        display: none;
     }
     
   
