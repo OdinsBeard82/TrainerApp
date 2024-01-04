@@ -36,9 +36,14 @@ header {
   position: relative;
 }
 
-.navbar-icon {
+.navbar-toggler {
   border: none;
   color: rgb(255, 255, 255);
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+ 
 }
 
 button {
