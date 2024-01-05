@@ -1,0 +1,82 @@
+.theMissionLayout2 {
+    margin-top: -30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin-left: 12%;
+    margin-right: 12%;
+    flex-direction: column;
+  }
+  
+.boxes {
+    padding: 15vh;
+    background: rgb(33, 33, 33);
+    border-radius: 12%;
+    z-index: 1;
+}
+
+.theMisssionlayout1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 8px;
+}
+
+ .theMissionImage {
+  max-width: 1450px;
+  filter: grayscale(100%);
+  z-index: -1;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 70%);
+}
+
+.theMissionImage text {
+    color: black;
+    z-index: 2;
+    margin-top: -25%;
+
+}
+
+.ourMission {
+    margin-top: -50%;
+    color: black;
+    z-index: 2;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-text-header {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: orange; 
+    font-size: 46px;
+    font-weight: bold; 
+    text-align: left;
+    max-width: 40%;
+}
+
+.image-text {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 18px;
+    text-align: left;
+    max-width: 40%;
+}
+
+.theMission {
+    position: absolute;
+    top: 35%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 18px;
+    text-align: left;
+    max-width: 40%;
+    font-weight: bold; 
+
+}

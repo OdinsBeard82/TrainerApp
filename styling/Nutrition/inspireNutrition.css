@@ -1,0 +1,147 @@
+.nutritionGreen img {
+    height: 700px;
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 90px;
+    margin-right: 250px;
+    z-index: 2;
+}
+
+.rotated-half-circle {
+    width: 600px;
+    height: 600px;
+    border: 90px solid #F5F570;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(200deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 130px;
+    margin-right: 120px;
+    z-index: 1;
+  }
+
+  .green {
+    background-color: #00A181;
+  }
+
+  .rotated-half-circle2 {
+    width: 600px;
+    height: 600px;
+    border: 90px solid #F5F570;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(-60deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 130px;
+    margin-right: 120px;
+    z-index: 1;
+  }
+
+  .empower,
+  .empower2 {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0;
+  }
+
+  .empower {
+    color: white;
+  }
+
+  .empower2 {
+    color:#F5F570;;
+  }
+
+  .unearth {
+    color: white;
+  }
+
+  .newstarted {
+    color: #00A181;
+    font-weight: bold;
+    width: 60%;
+  }
+
+  .mini {
+    font-size: 14px;
+    color: white;
+    margin-top: 15px;
+  }
+
+.avacado {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 170px;
+    margin-right: 570px;
+    z-index: 2;
+}
+
+.macros {
+    width: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 205px;
+    margin-right: 100px;
+    z-index: 2;
+}
+
+.salad {
+    width: 130px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 500px;
+    margin-right: 590px;
+    z-index: 2;
+}
+
+.flame {
+    width: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 640px;
+    margin-right: 570px;
+    z-index: 2;
+}
+
+.soup {
+    width: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 400px;
+    margin-right: 680px;
+    z-index: 2;
+}
+
+.smartPlan {
+    width: 220px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 270px;
+    margin-right: 560px;
+    z-index: 2;
+}
+
+.addMeal {
+    width: 130px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 145px;
+    margin-right: 200px;
+    z-index: 2;
+}

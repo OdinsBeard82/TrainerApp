@@ -1,0 +1,165 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+
+.typesOfBusiness,
+.pricing,
+.about,
+.signIn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin: 10px;
+}
+
+.started,
+.started2,
+.started4 {
+  color: black;
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.dropdown {
+
+  display: inline-block;
+}
+
+.navbar-toggler {
+  margin-top: 0;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+.navbar-toggler-icon {
+  margin-top: 5px;
+  display: flex;
+  margin-bottom: 5px;
+  background-color: white;
+  height: 2px;
+ 
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+}
+
+.dropdown-options a {
+  display: block;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  text-decoration: none;
+  padding: 20px 40px;
+}
+
+.dropdown-options1 {
+  display: none;
+  position: absolute;
+  background-color: black;
+  right: 0;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.4);
+  z-index: 1; 
+}
+
+.dropdown:hover .dropdown-options1, .dropdown:focus-within .dropdown-options1 {
+  display: block;
+}
+
+.dropdown-options1 a {
+  display: block;
+  color: white;
+  background-color: black;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+
+
+.dropdown-button {
+  color: white;
+  background-color: black;
+}
+
+.TrainerApp,
+.TrainerApp2 {
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+}
+
+.button {
+  text-transform: none;
+  overflow: visible;
+  color: orange;
+}
+
+.TrainerApp:hover,
+.TrainerApp2:hover,
+.getStarted:hover,
+.getStarted2:hover,
+.getStarted4:hover,
+.navbar-toggler:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .pricing,
+  .about,
+  .signIn,
+  .started2,
+  .dropdown-button {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 0px;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+  }
+
+  .navbar-toggler {
+    display: contents;
+  }
+
+}

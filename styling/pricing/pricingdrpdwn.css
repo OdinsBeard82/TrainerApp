@@ -1,0 +1,65 @@
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+  }
+
+  
+  .dropbtn3 {
+    height: auto;
+    border-color: black;
+    color: black;
+    padding: 1px 20px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid black; 
+    width: 200%;
+    margin-left: -50%;
+    border-radius: 0;
+  }
+  
+  .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    color: black;
+    width: 200%;
+    margin-left: -50%;
+    border-radius: 0;
+  }
+  
+  .dropdown-content3 a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+
+  .drpdwnpricing {
+    font-size: 14px;
+    width: 100%;
+    background-color: white;
+    text-align: center; 
+    height: 10px;
+    line-height: 0px;
+    text-align: start;
+
+}
+  
+  .dropdown3:hover .dropdown-content3 {
+    display: block;
+  }
+
+  @media screen and (max-width: 600px) {
+    .dropdown-content {
+      position: relative;
+    }
+    .dropdown, .dropbtn {
+      width: 100%;
+      display: block;
+    }
+  }
+  

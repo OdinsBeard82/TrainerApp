@@ -1,0 +1,35 @@
+@import "./styling/homePage.css";
+@import "./styling/getStarted.css";
+@import "./styling/header.css";
+@import "./styling/mainContent.css";
+@import "./styling/brandsSection.css";
+@import "./styling/onlineTraining.css";
+@import "./styling/business.css";
+@import "./styling/versitile.css";
+@import "./styling/engagement.css";
+@import "./styling//getStarted//getStartedStyles.css";
+@import "./styling/getStarted/getStartedStyles.css";
+
+@import "./styling/signIn/main.css";
+@import "./styling/signIn/One-to-One.css";
+@import "./styling/signIn/whyJoin.css";
+@import "./styling/signIn/doesItAll.css";
+@import "./styling/signIn/monthlyYearly/monthlyYearly.css";
+
+@import "./styling/30DayTrial//30DayTrial.css";
+@import "./styling/infoEnd//infoEnd.css";
+
+@import "./styling//Nutrition//inspireNutrition.css";
+@import "./styling//Nutrition//noMoreSwitching.css";
+@import "./styling/Nutrition/nutritionFuel.css";
+
+@import "./styling/pricing/plans.css";
+@import "./styling/pricing/pricingdrpdwn.css";
+
+@import "./styling//about/aboutTrainerApp.css";
+@import "./styling///about/fourFlexBoxes.css";
+
+
+
+
+
