@@ -86,6 +86,30 @@ button {
   padding: 20px 40px;
 }
 
+.dropdown-options1 {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color: black;
+  right: 0%;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.dropdown:hover .dropdown-options1 {
+  display: block;
+}
+
+.dropdown-options1 a {
+  display: block;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  text-decoration: none;
+  padding: 20px 40px;
+}
+
 .dropdown-button {
   color: white;
   background-color: black;
