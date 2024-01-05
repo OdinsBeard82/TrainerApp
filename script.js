@@ -8,6 +8,12 @@ document.addEventListener('DOMContentLoaded', function () {
     setupButtonClick("oneToOneLink");
     setupButtonClick("nutritionLink");
     setupButtonClick("onlineLink");
+
+    setupButtonClick("signIn0"); 
+    setupButtonClick("about0"); 
+    setupButtonClick("pricing0");
+    setupButtonClick("nutritionLink0");
+    setupButtonClick("onlineLink0");
 });
 
 function setupButtonClick(buttonId) {
@@ -18,6 +24,11 @@ function setupButtonClick(buttonId) {
 
 function navigateToPage(buttonId) {
     const pageMap = {
+        signIn0: './module/signIn.html',
+        about0: './module/about.html',
+        pricing0: './module/pricing.html',
+        nutritionLink0: './module/nutritionPage.html',
+        onlineLink0: './module/online.html',
         signIn1: './module/signIn.html',
         about1: './module/about.html',
         pricing1: './module/pricing.html',
