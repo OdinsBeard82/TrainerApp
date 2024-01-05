@@ -15,6 +15,7 @@
     width: 50%;
     height: 68%;
     border-radius: 8px;
+    z-index: -1;
 }
 
 body {
