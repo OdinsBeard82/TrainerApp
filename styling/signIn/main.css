@@ -1,8 +1,8 @@
 .content {
     width: 50%;
     color: black;
-    padding: 135px;
-    margin-top: 115px;
+    padding: 140px;
+    margin-top: 0px;
     border-radius: 8px;
     background-color: rgb(240, 238, 238);
 }
@@ -25,18 +25,18 @@ body {
 
 .container {
     display: flex;
-    height: 100vh; /* 100% of the viewport height */
+    height: 100vh; 
 }
 
 .half {
-    flex: 1; /* Takes up 50% of the container */
+    flex: 1; 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .image-container {
-    background-color: #ddd; /* Placeholder background color for the image container */
+    background-color: #ddd; 
 }
 
 img {
@@ -46,5 +46,5 @@ img {
 }
 
 .text-container {
-    background-color: #f0f0f0; /* Placeholder background color for the text container */
+    background-color: #f0f0f0; 
 }
