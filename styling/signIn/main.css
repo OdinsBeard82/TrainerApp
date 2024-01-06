@@ -68,8 +68,6 @@ img {
         z-index: -1;
     }
 
-  
-
     .NewPara2{
     font-size: 12px;
     font-weight: 4200;
@@ -91,4 +89,12 @@ img {
         background-color: rgb(240, 238, 238);
         
     }
+
+    .started {
+      display: none;
+    }
+  
+    .navbar-toggler {
+        display: contents;
+      }
 }
