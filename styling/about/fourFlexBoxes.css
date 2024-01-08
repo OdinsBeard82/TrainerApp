@@ -16,7 +16,7 @@
 }
 
 .theMisssionlayout1 {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 8px;
 }
