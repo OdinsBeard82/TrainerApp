@@ -114,7 +114,8 @@ margin: 20px;
 
     }
 
-    .started3 {
+    .started3,
+    .infoEnd {
         display: none;
     }
 

@@ -131,6 +131,81 @@ flex-wrap: wrap;
     color: black;
 }
 
+@media screen and (max-width: 767px) {
+    .monthlyYearly {
+        background-color: rgb(240, 238, 238);
+        color: black;
+        margin-top: -30%; 
+        text-align: center;
+        height: 1000px;
+    }
 
+    .monthly {
+        padding-top: 30px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .unlockingPotential {
+        font-size: 12px;
+    }
+
+.clients5,
+.unlimited,
+.included,
+.includedList,
+.includedList2
+    {
+    display: none;
+}
+
+.pro5 {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .optimal {
+    font-size: 12px;
+  }
+
+  .priceChoices {
+    background-color: rgb(231, 230, 230);
+     width: 100%;
+     height: 500px;
+     border-radius: 12px;
+     margin-left: 3%;
+     border-top: 25px solid orange;
+     margin-top: 0%;
+ }
+
+ .pricesContainer {
+    background-color: rgb(240, 238, 238);
+    width: 80%;
+    height: 555px;
+    border-radius: 15px;
+    margin-left: 10%;
+    padding-top: 2%;
+    border-bottom: 0px rgb(240, 238, 238);
+
+}
+
+.inline:nth-child(1) {
+    font-size: 18px;
+}
+
+.inline:nth-child(2) {
+    font-size: 24px;
+}
+
+.inline:nth-child(3) {
+    font-size: 18px; 
+}
+
+.inline {
+    padding-top: 20px;
+}
+
+}
 
 
