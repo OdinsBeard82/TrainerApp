@@ -6,7 +6,7 @@ TrainerApp provides an intuitive interface for building workout plans, logging p
 ---
 
 ### 🌐 Live Demo  
-🔗 **[Open TrainerApp](https://657888c1b442d9007d2c186d--effortless-griffin-496827.netlify.app/index.html)**  
+🔗 **[Open TrainerApp](https://effortless-griffin-496827.netlify.app/)**  
 *(Hosted on Netlify)*
 
 ---
