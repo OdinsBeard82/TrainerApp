@@ -1,0 +1,19 @@
+{
+  "name": "trainer-app",
+  "version": "1.0.0",
+  "description": "A simple trainer app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "jest": "^26.6.0"
+  },
+  "author": "OdinsBeard82",
+  "license": "ISC"
+}

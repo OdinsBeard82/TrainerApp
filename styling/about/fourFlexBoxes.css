@@ -1,82 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
 .theMissionLayout2 {
-    margin-top: -30%;
+    margin-top: 5%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     gap: 25px;
-    margin-left: 12%;
-    margin-right: 12%;
-    flex-direction: column;
-  }
-  
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .boxes {
-    padding: 15vh;
-    background: rgb(33, 33, 33);
+    padding: 20px;
     border-radius: 12%;
     z-index: 1;
+    text-align: center;
+    color: #fff;
+    transition: transform 0.3s;
+}
+
+.boxes:nth-child(1) {
+    background: #3498db;
+}
+
+.boxes:nth-child(2) {
+    background: #2ecc71;
+}
+
+.boxes:nth-child(3) {
+    background: #e74c3c;
+}
+
+.boxes:nth-child(4) {
+    background: #f39c12;
+}
+
+/* Hover effect */
+.boxes:hover {
+    transform: scale(1.05);
 }
 
 .theMisssionlayout1 {
-  display: flex;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
 }
 
- .theMissionImage {
-  max-width: 1450px;
-  filter: grayscale(100%);
-  z-index: -1;
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 70%);
-}
-
-.theMissionImage text {
-    color: black;
-    z-index: 2;
-    margin-top: -25%;
-
-}
-
-.ourMission {
-    margin-top: -50%;
-    color: black;
-    z-index: 2;
+.theMissionImage {
+    max-width: 100%;
+    filter: grayscale(100%);
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 70%);
+    margin-bottom: 0;
 }
 
 .image-container {
     position: relative;
 }
 
-.image-text-header {
+.image-text-header,
+.image-text,
+.theMission {
     position: absolute;
+    color: white;
+    text-align: center;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Specific Text Styling */
+.theMission {
+    top: 30%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.image-text-header {
     top: 45%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    color: orange; 
-    font-size: 46px;
-    font-weight: bold; 
-    text-align: left;
-    max-width: 40%;
+    font-size: 28px;
+    color: orange;
+    font-weight: bold;
 }
 
 .image-text {
-    position: absolute;
     top: 60%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    color: white; 
-    font-size: 18px;
-    text-align: left;
-    max-width: 40%;
+    font-size: 16px;
 }
 
-.theMission {
-    position: absolute;
-    top: 35%;
-    left: 14%;
-    transform: translate(-50%, -50%);
-    color: white; 
-    font-size: 18px;
-    text-align: left;
-    max-width: 40%;
-    font-weight: bold; 
+/* Media Queries for Responsiveness */
 
+/* Large screens */
+@media (min-width: 1200px) {
+    .theMissionLayout2 {
+        margin-top: 5%;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .image-text-header {
+        font-size: 40px;
+    }
+
+    .image-text {
+        font-size: 18px;
+    }
+}
+
+/* Medium screens */
+@media (max-width: 1199px) and (min-width: 768px) {
+    .theMissionLayout2 {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .boxes {
+        padding: 8vh;
+    }
+
+    .image-text-header {
+        font-size: 34px;
+    }
+
+    .image-text {
+        font-size: 16px;
+    }
+}
+
+/* Small screens */
+@media (max-width: 767px) {
+    .theMissionLayout2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .boxes {
+        padding: 6vh;
+        border-radius: 8%;
+    }
+
+    .image-text-header {
+        font-size: 28px;
+        top: 40%;
+    }
+
+    .image-text {
+        font-size: 14px;
+        top: 55%;
+    }
+
+    .theMission {
+        font-size: 14px;
+        top: 30%;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    .theMissionLayout2 {
+        margin-top: 5%;
+    }
+
+    .boxes {
+        padding: 4vh;
+    }
+
+    .image-text-header {
+        font-size: 24px;
+        max-width: 80%;
+    }
+
+    .image-text {
+        font-size: 12px;
+        max-width: 80%;
+    }
+
+    .theMission {
+        font-size: 12px;
+        max-width: 80%;
+    }
 }
