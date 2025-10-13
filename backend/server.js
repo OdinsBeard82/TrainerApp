@@ -5,12 +5,16 @@ require('dotenv').config();
 
 const app = express();
 
-const authRoutes = require('./routes/auth');
-app.use('/api/auth', authRoutes);
-
 // Middleware
 app.use(cors());
 app.use(express.json());
+
+// Routes
+const authRoutes = require('./routes/auth');
+const workoutRoutes = require('./routes/workouts');
+
+app.use('/api/auth', authRoutes);
+app.use('/api/workouts', workoutRoutes);
 
 // Test route
 app.get('/', (req, res) => {
