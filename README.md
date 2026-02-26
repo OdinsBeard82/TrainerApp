@@ -31,10 +31,10 @@ TrainerApp provides an intuitive interface for building workout plans, logging p
 | Category | Technology |
 |-----------|-------------|
 | **Frontend** | React |
-| **Styling** | CSS / Tailwind (if you used Tailwind) |
+| **Styling** | CSS |
 | **Routing** | React Router |
 | **Deployment** | Netlify |
-| **State Management** | React useState / Context API (specify what you used) |
+| **State Management** | React useState / Context API |
 
 ---
 
